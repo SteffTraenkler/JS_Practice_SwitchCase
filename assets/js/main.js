@@ -9,7 +9,7 @@ function check() {
     let textClear = inputBuName.value.toLowerCase();
     console.log(textClear);
     switch (textClear) {
-        case "badenwürttemberg":
+        case 'baden-württemberg':
             outputBuInfo.innerHTML = `Baden-Württemberg hat 10,880 Mio Einwohner und Stuttgart ist die Hauptstadt`;
             break;
 
